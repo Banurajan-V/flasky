@@ -1,8 +1,8 @@
 name: My first action
-on:[push]
+on: [push]
 
 jobs:
- my-first-action
-  runs-on:ubuntu-latest
+ my-first-action:
+  runs-on: ubuntu-latest
   steps:
-      -run:echo "Github action works"
+      - run: echo "Github action works"
